@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+/include/ "msm8916.dtsi"
+
+/ {
+	// This is used by the bootloader to find the correct DTB
+	qcom,msm-id = <206 0>; // qcom,msm-id = <247 0>; for APQ8016
+	qcom,board-id = <0xCE08FF01 1>;
+
+	model = "Samsung Galaxy J3 2016";
+	compatible = "samsung,j3ltespr", "qcom,msm8916", "lk2nd,device";
+
+	samsung,muic-reset {
+		i2c-gpios = <2 3>;
+		i2c-address = <0x25>;
+	};
+};
