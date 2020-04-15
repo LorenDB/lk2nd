@@ -4,7 +4,6 @@ ifeq ($(PROJECT), msm8916-secondary)
 DTBS += \
 	$(LOCAL_DIR)/apq8016-samsung-r02.dtb \
 	$(LOCAL_DIR)/apq8016-samsung-r07.dtb \
-	$(LOCAL_DIR)/msm8916-longcheer-l8150.dtb \
 	$(LOCAL_DIR)/msm8916-motorola-harpia.dtb \
 	$(LOCAL_DIR)/msm8916-mtp.dtb \
 	$(LOCAL_DIR)/msm8916-samsung-r01.dtb \
