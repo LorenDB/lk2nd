@@ -29,5 +29,10 @@
 		model = "Samsung Galaxy J3 2016";
 		compatible = "samsung,j3ltespr", "qcom,msm8916", "lk2nd,device";
 		lk2nd,match-bootloader = "J320P*";
+		
+		samsung,muic-reset {
+			i2c-gpios = <2 3>;
+			i2c-address = <0x25>;
+		};
 	};
 };
