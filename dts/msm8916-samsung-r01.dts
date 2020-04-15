@@ -24,4 +24,10 @@
 		compatible = "samsung,a5u-eur", "qcom,msm8916", "lk2nd,device";
 		lk2nd,match-bootloader = "A500FU*";
 	};
+
+	j3ltespr {
+		model = "Samsung Galaxy J3 2016";
+		compatible = "samsung,j3ltespr", "qcom,msm8916", "lk2nd,device";
+		lk2nd,match-bootloader = "J320P*";
+	};
 };
